@@ -1,0 +1,279 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Technical Documentation Page</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body class=container>
+  <main id="main-doc">
+    <section class="main-section" id="home">
+      <header>Home</header>
+      <p>Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.</p> <br>
+      <p>CSS is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain. I will list down some of the key advantages of learning CSS:</p>
+      <ul>
+        <li>Create Stunning Web site</li>
+        <li>Become a web designer</li>
+        <li>Control web</li>
+        <li>Learn other languages</li>
+      </ul>
+    </section>
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <h5>Who Creates and Maintains CSS?</h5>
+      <p>CSS is created and maintained through a group of people within the W3C called the CSS Working Group. The CSS Working Group creates documents called specifications. When a specification has been discussed and officially ratified by the W3C members, it becomes a recommendation.</p><br>
+      <p>These ratified specifications are called recommendations because the W3C has no control over the actual implementation of the language. Independent companies and organizations create that software.</p>
+      <h5>CSS Versions</h5>
+      <p>Cascading Style Sheets level 1 (CSS1) came out of W3C as a recommendation in December 1996. This version describes the CSS language as well as a simple visual formatting model for all the HTML tags.
+
+CSS2 became a W3C recommendation in May 1998 and builds on CSS1. This version adds support for media-specific style sheets e.g. printers and aural devices, downloadable fonts, element positioning and tables.</p>
+    </section>
+    <section class="main-section" id="syntax">
+      <header>Syntax</header>
+      <p>A CSS comprises of style rules that are interpreted by the browser and then applied to the corresponding elements in your document. A style rule is made of three parts −</p>
+      <ul>
+        <li>Selector</li>
+        <li>Property</li>
+        <li>Value</li>
+      </ul>
+      <p>You can put CSS Style Rule Syntax as follows −
+      </p>
+      <code>selector { property: value }
+      </code>
+    </section>
+    <section class="main-section" id="inclusion">
+      <header>Inclusion</header>
+      <p>There are four ways to associate styles with your HTML document. Most commonly used methods are inline CSS and External CSS.</p>
+      <ul>
+        <li>Embedded CSS</li>
+        <li>Inline CSS</li>
+        <li>External CSS</li>
+        <li>Imported CSS</li>
+      </ul>
+    </section>
+    <section class="main-section" id="measurement_units">
+      <header>Measurement Units</header>
+      <p>CSS supports a number of measurements including absolute units such as inches, centimeters, points, and so on, as well as relative measures such as percentages and em units. You need these values while specifying various measurements in your Style rules e.g. border = "1px solid red".</p>
+    </section>
+    <section class="main-section" id="colors">
+      <header>Colors</header>
+      <p>S uses color values to specify a color. Typically, these are used to set a color either for the foreground of an element (i.e., its text) or else for the background of the element. They can also be used to affect the color of borders and other decorative effects.</p>
+      <ul>
+        <li>Hex Codes</li>
+        <li>Short Hex Codes</li>
+        <li>RGB Values</li>
+      </ul>
+    </section>
+    <section class="main-section" id="backgrounds">
+      <header>Backgrounds</header>
+      <p>This chapter teaches you how to set backgrounds of various HTML elements. You can set the following background properties of an element −</p>
+      <ul>
+        <li>The background-color property is used to set the background color of an element.</li>
+        <li>The background-image property is used to set the background image of an element.</li>
+        <li>The background-repeat property is used to control the repetition of an image in the background.</li>
+        <li>The background-position property is used to control the position of an image in the background.</li>
+        <li>The background-attachment property is used to control the scrolling of an image in the background.</li>
+        <li>The background property is used as a shorthand to specify a number of other background properties.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="fonts">
+      <header>Fonts</header>
+      <p>This chapter teaches you how to set fonts of a content, available in an HTML element. You can set following font properties of an element −</p>
+      <ul>
+        <li>The font-family property is used to change the face of a font.</li>
+        <li>The font-style property is used to make a font italic or oblique.</li>
+        <li>The font-variant property is used to create a small-caps effect.</li>
+        <li>The font-weight property is used to increase or decrease how bold or light a font appears.</li>
+        <li>The font-size property is used to increase or decrease the size of a font.</li>
+        <li>The font property is used as shorthand to specify a number of other font properties.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="text">
+      <header>Text</header>
+      <p>This chapter teaches you how to manipulate text using CSS properties. You can set following text properties of an element −</p>
+      <ul>
+        <li>The color property is used to set the color of a text.</li>
+        <li>The direction property is used to set the text direction.</li>
+        <li>The letter-spacing property is used to add or subtract space between the letters that make up a word.</li>
+        <li>The word-spacing property is used to add or subtract space between the words of a sentence.</li>
+        <li>The text-indent property is used to indent the text of a paragraph.</li>
+        <li>The text-align property is used to align the text of a document.</li>
+        <li>The text-decoration property is used to underline, overline, and strikethrough text.</li>
+        <li>The text-transform property is used to capitalize text or convert text to uppercase or lowercase letters.</li>
+        <li>The white-space property is used to control the flow and formatting of text.</li>
+        <li>The text-shadow property is used to set the text shadow around a text.</li>
+      </ul>
+      <p>Here is an example of the syntax to use the color property.</p>
+      <code>style = "color:red;"</code>
+    </section>
+    <section class="main-section" id="images">
+      <header>Images</header>
+      <p>Images play an important role in any webpage. Though it is not recommended to include a lot of images, but it is still important to use good images wherever required.</p>
+      <p>CSS plays a good role to control image display. You can set the following image properties using CSS.</p>
+      <ul>
+        <li>The border property is used to set the width of an image border.</li>
+        <li>The height property is used to set the height of an image.</li>
+        <li>The width property is used to set the width of an image.</li>
+        <li>The -moz-opacity property is used to set the opacity of an image.</li>
+      </ul>
+      <p>Below is an example on how to use the border property</p>
+      <code>img style = "border:0px;" src = "/css/images/logo.png"</code>
+    </section>
+    <section class="main-section" id="links">
+      <header>Links</header>
+      <p> chapter teaches you how to set different properties of a hyper link using CSS. You can set following properties of a hyper link. We will revisit the same properties when we will discuss Pseudo-Classes of CSS.</p>
+      <ul>
+        <li>The :link signifies unvisited hyperlinks.</li>
+        <li>The :visited signifies visited hyperlinks.</li>
+        <li>The :hover signifies an element that currently has the user's mouse pointer hovering over it.</li>
+        <li>The :active signifies an element on which the user is currently clicking.</li>
+      </ul>
+      <p>Usually, all these properties are kept in the header part of the HTML document. Remember a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective. Also, a:active MUST come after a:hover in the CSS definition as follows −</p>
+      <code>
+   a:link {color: #000000} <br>
+   a:visited {color: #006600} <br>
+   a:hover {color: #FFCC00} <br>
+   a:active {color: #FF00CC}
+      </code>
+    </section>
+    <section class="main-section" id="tables">
+      <header>Tables</header>
+      <p>This tutorial will teach you how to set different properties of an HTML table using CSS. You can set following properties of a table −</p>
+      <ul>
+        <li>The border-collapse specifies whether the browser should control the appearance of the adjacent borders that touch each other or whether each cell should maintain its style.</li>
+        <li>The border-spacing specifies the width that should appear between table cells.</li>
+        <li>The caption-side captions are presented in the <caption> element. By default, these are rendered above the table in the document. You use the caption-side property to control the placement of the table caption.</li>
+          <li>The empty-cells specifies whether the border should be shown if a cell is empty.</li>
+        <li>The table-layout allows browsers to speed up layout of a table by using the first width properties it comes across for the rest of a column rather than having to load the whole table before rendering it.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="borders">
+      <header>Borders</header>
+      <p>The border properties allow you to specify how the border of the box representing an element should look. There are three properties of a border you can change −</p>
+      <ul>
+        <li>The border-color specifies the color of a border.</li>
+        <li>The border-style specifies whether a border should be solid, dashed line, double line, or one of the other possible values.</li>
+        <li>The border-width specifies the width of a border.</li>
+      </ul>
+      <p>Below is an example on how to use the border-width property.</p>
+      <code>p style = "border-width:4px; border-style:solid;"</code>
+    </section>
+    <section class="main-section" id="margins">
+      <header>Margins</header>
+      <p>The margin property defines the space around an HTML element. It is possible to use negative values to overlap content.</p>
+      <p>The values of the margin property are not inherited by the child elements. Remember that the adjacent vertical margins (top and bottom margins) will collapse into each other so that the distance between the blocks is not the sum of the margins, but only the greater of the two margins or the same size as one margin if both are equal. We have the following properties to set an element margin.</p>
+      <ul>
+        <li>The margin specifies a shorthand property for setting the margin properties in one declaration.</li>
+        <li>The margin-bottom specifies the bottom margin of an element.</li>
+        <li>The margin-top specifies the top margin of an element.</li>
+        <li>The margin-left specifies the left margin of an element.</li>
+        <li>The margin-right specifies the right margin of an element.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="lists">
+      <header>Lists</header>
+      <p>Lists are very helpful in conveying a set of either numbered or bullet points. This chapter teaches you how to control list type, position, style, etc., using CSS. We have the following five CSS properties, which can be used to control lists −</p>
+      <ul>
+        <li>The list-style-type allows you to control the shape or appearance of the marker.</li>
+        <li>The list-style-position specifies whether a long point that wraps to a second line should align with the first line or start underneath the start of the marker.</li>
+        <li>The list-style-image specifies an image for the marker rather than a bullet point or number.</li>
+        <li>The list-style serves as shorthand for the preceding properties.</li>
+        <li>The marker-offset specifies the distance between a marker and the text in the list.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="padding">
+      <header>Padding</header>
+      <p>The padding property allows you to specify how much space should appear between the content of an element and its border. The value of this attribute should be either a length, a percentage, or the word inherit. If the value is inherit, it will have the same padding as its parent element. If a percentage is used, the percentage is of the containing box.</p>
+      <p>The following CSS properties can be used to control lists. You can also set different values for the padding on each side of the box using the following properties −</p>
+      <ul>
+        <li>The padding-bottom specifies the bottom padding of an element.</li>
+        <li>The padding-top specifies the top padding of an element.</li>
+        <li>The padding-left specifies the left padding of an element.</li>
+        <li>The padding-right specifies the right padding of an element.</li>
+        <li>The padding serves as shorthand for the preceding properties.</li>
+      </ul>
+      <p>Below is an example on how to use the paddin property.</p>
+       <code>p style = "padding-bottom: 15px; border:1px solid black;"</code>
+    </section>
+    <section class="main-section" id="cursors">
+      <header>Cursors</header>
+      <p>The cursor property of CSS allows you to specify the type of cursor that should be displayed to the user.</p>
+      <p>One good usage of this property is in using images for submit buttons on forms. By default, when a cursor hovers over a link, the cursor changes from a pointer to a hand. However, it does not change form for a submit button on a form. Therefore, whenever someone hovers over an image that is a submit button, it provides a visual clue that the image is clickable.</p>
+    </section>
+    <section class="main-section" id="outlines">
+      <header>Outlines</header>
+      <p>Outlines are very similar to borders, but there are few major differences as well −</p>
+      <ul>
+        <li>An outline does not take up space.</li>
+        <li>Outlines do not have to be rectangular.</li>
+        <li>Outline is always the same on all sides; you cannot specify different values for different sides of an element.</li>
+      </ul>
+      <p>You can set the following outline properties using CSS.</p>
+      <ul>
+        <li>The outline-width property is used to set the width of the outline.</li>
+        <li>The outline-style property is used to set the line style for the outline.</li>
+        <li>The outline-color property is used to set the color of the outline.</li>
+        <li>The outline property is used to set all the above three properties in a single statement.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="dimensions">
+      <header>Dimensions</header>
+      <p>You have seen the border that surrounds every box ie. element, the padding that can appear inside each box and the margin that can go around them. In this tutorial we will learn how we can change the dimensions of boxes.</p>
+      <p>We have the following properties that allow you to control the dimensions of a box.</p>
+      <ul>
+        <li>The height property is used to set the height of a box.</li>
+        <li>The width property is used to set the width of a box.</li>
+        <li>The line-height property is used to set the height of a line of text.</li>
+        <li>The max-height property is used to set a maximum height that a box can be.</li>
+        <li>The min-height property is used to set the minimum height that a box can be.</li>
+        <li>The max-width property is used to set the maximum width that a box can be.</li>
+        <li>The min-width property is used to set the minimum width that a box can be.</li>
+      </ul>
+      <p>Below is an example on how to use the line-height property</p>
+      <code>p style = "width:400px; height:100px; border:1px solid red; padding:5px; margin:10px; line-height:30px;"</code>
+    </section>
+    <section class="main-section" id="scrollbars">
+      <header>Scrollbars</header>
+      <p>There may be a case when an element's content might be larger than the amount of space allocated to it. For example, given width and height properties do not allow enough room to accommodate the content of the element.</p>
+      <p>CSS provides a property called overflow which tells the browser what to do if the box's contents is larger than the box itself. This property can take one of the following values −</p>
+      <ul>
+        <li>visible- Allows the content to overflow the borders of its containing element.</li>
+        <li>hidden- The content of the nested element is simply cut off at the border of the containing element and no scrollbars is visible.</li>
+        <li>scroll- The size of the containing element does not change, but the scrollbars are added to allow the user to scroll to see the content.</li>
+        <li>auto- The purpose is the same as scroll, but the scrollbar will be shown only if the content does overflow.</li>
+      </ul>
+    </section>
+    <section class="main-section" id="references">
+      <header>References</header>
+      <p>All documentation listed on this Technical Document was obtained from <a href="https://www.tutorialspoint.com/css/index.htm" target="_blank">Tutorialspoint.com</a> </p>
+    </section>
+  </main>
+  <nav id="navbar">
+    <header>Cascading Style Sheets</header>
+    <a href="#home" class="nav-link">Home</a>
+    <a href="#introduction" class="nav-link">Introduction</a>
+    <a href="#syntax" class="nav-link">Syntax</a>
+    <a href="#inclusion" class="nav-link">Inclusion</a>
+    <a href="#measurement_units" class="nav-link">Measurement Units</a>
+    <a href="#colors" class="nav-link">Colors</a>
+    <a href="#backgrounds" class="nav-link">Backgrounds</a>
+    <a href="#fonts" class="nav-link">Fonts</a>
+    <a href="#text" class="nav-link">Text</a>
+    <a href="#images" class="nav-link">Images</a>
+    <a href="#links" class="nav-link">Links</a>
+    <a href="#tables" class="nav-link">Tables</a>
+    <a href="#borders" class="nav-link">Borders</a>
+    <a href="#margins" class="nav-link">Margins</a>
+    <a href="#lists" class="nav-link">Lists</a>
+    <a href="#padding" class="nav-link">Padding</a>
+    <a href="#cursors" class="nav-link">Cursors</a>
+    <a href="#outlines" class="nav-link">Outlines</a>
+    <a href="#dimensions" class="nav-link">Dimensions</a>
+    <a href="#scrollbars" class="nav-link">Scrollbars</a>
+    <a href="#references" class="nav-link">References</a>
+  </nav>
+</body>
+</html>
